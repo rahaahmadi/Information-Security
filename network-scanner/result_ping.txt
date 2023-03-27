@@ -1,0 +1,104 @@
+
+> ping -c 1 google.com
+PING google.com (172.217.16.206): 56 data bytes
+64 bytes from 172.217.16.206: icmp_seq=0 ttl=111 time=123.262 ms
+--- google.com ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 123.262/123.262/123.262/0.000 ms
+------------------------------------------------------------------------------------
+
+> ping -c 1 216.58.212.228
+PING 216.58.212.228 (216.58.212.228): 56 data bytes
+64 bytes from 216.58.212.228: icmp_seq=0 ttl=107 time=138.084 ms
+--- 216.58.212.228 ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 138.084/138.084/138.084/0.000 ms
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.60
+PING 89.43.3.60 (89.43.3.60): 56 data bytes
+36 bytes from 10.101.101.29: Time to live exceeded
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 5400 d011   0 0000  01  01 e998 192.168.1.101  89.43.3.60 
+
+--- 89.43.3.60 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.61
+PING 89.43.3.61 (89.43.3.61): 56 data bytes
+36 bytes from 10.101.101.29: Time to live exceeded
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 5400 3ceb   0 0000  01  01 7cbf 192.168.1.101  89.43.3.61 
+
+--- 89.43.3.61 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.62
+PING 89.43.3.62 (89.43.3.62): 56 data bytes
+36 bytes from 10.101.101.29: Time to live exceeded
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 5400 5b89   0 0000  01  01 5e21 192.168.1.101  89.43.3.62 
+
+--- 89.43.3.62 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.63
+PING 89.43.3.63 (89.43.3.63): 56 data bytes
+36 bytes from 10.101.101.29: Time to live exceeded
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 5400 0dc5   0 0000  01  01 abe5 192.168.1.101  89.43.3.63 
+
+--- 89.43.3.63 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.64
+PING 89.43.3.64 (89.43.3.64): 56 data bytes
+--- 89.43.3.64 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.65
+PING 89.43.3.65 (89.43.3.65): 56 data bytes
+--- 89.43.3.65 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.66
+PING 89.43.3.66 (89.43.3.66): 56 data bytes
+64 bytes from 89.43.3.66: icmp_seq=0 ttl=52 time=77.861 ms
+--- 89.43.3.66 ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 77.861/77.861/77.861/0.000 ms
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.67
+PING 89.43.3.67 (89.43.3.67): 56 data bytes
+--- 89.43.3.67 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.68
+PING 89.43.3.68 (89.43.3.68): 56 data bytes
+64 bytes from 89.43.3.68: icmp_seq=0 ttl=113 time=86.687 ms
+--- 89.43.3.68 ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 86.687/86.687/86.687/0.000 ms
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.69
+PING 89.43.3.69 (89.43.3.69): 56 data bytes
+--- 89.43.3.69 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+------------------------------------------------------------------------------------
+
+> ping -c 1 89.43.3.70
+PING 89.43.3.70 (89.43.3.70): 56 data bytes
+64 bytes from 89.43.3.70: icmp_seq=0 ttl=49 time=87.897 ms
+--- 89.43.3.70 ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 87.897/87.897/87.897/0.000 ms
+------------------------------------------------------------------------------------
